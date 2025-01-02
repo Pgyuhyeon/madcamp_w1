@@ -25,9 +25,7 @@
 ![로그인](https://github.com/user-attachments/assets/05192e35-703c-4e74-bbe8-b874b37f1018)
 
 
-![시작화면.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/f6cb388f-3934-47d6-9928-26d2e10eb0fc/c254234e-7e47-4a54-ab55-6a16a889a666/%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.gif)
 
-![로그인.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/f6cb388f-3934-47d6-9928-26d2e10eb0fc/a7cb2da3-dc5c-4803-b130-506ab1c3448d/%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB.gif)
 
 - 사용자가 이메일과 비밀번호를 입력하면 실시간으로 입력 필드를 감지하여 로그인 버튼 활성화 여부를 결정
 - 로그인 버튼을 클릭하면 입력된 이메일과 비밀번호를 기반으로 `Firebase Authentication`을 사용해 인증을 시도
@@ -40,9 +38,11 @@
 
 ### 상황별 카페 순위를 보여주는 탭으로, 사용자가 각 카페의 정보를 확인하고 자신의 목적에 맞게 데이터를 정렬하거나 Pick을 선택하여 선호도를 표시할 수 있는 화면
 
-![Screen_Recording_20250101_201953_Phone.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/f6cb388f-3934-47d6-9928-26d2e10eb0fc/88ef6dcd-fc1e-4101-be08-437b28c025b7/Screen_Recording_20250101_201953_Phone.gif)
+![Screen_Recording_20250101_201953_Phone](https://github.com/user-attachments/assets/0f3e2417-341f-415a-8fe1-b1fb8dd35b99)
 
-![Screen_Recording_20250101_202405_Coffic.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/f6cb388f-3934-47d6-9928-26d2e10eb0fc/79f53be0-3b30-4104-9246-e2857e11d567/Screen_Recording_20250101_202405_Coffic.gif)
+
+![Screen_Recording_20250101_202405_Coffic](https://github.com/user-attachments/assets/5a16e311-418b-4d97-ba9c-761f965063f4)
+
 
 - 카페 데이터 수집 및 로드
     - `Tab1_DataManager`를 통해 로컬 JSON 파일에서 카페 데이터를 로드. JSON 파일은 파이썬의 `selenium` 라이브러리를 이용하여 크롤링. JSON 파일에서 각 카페의 이름, 주소, 운영 시간, 연락처, 이미지 URL 등의 정보를 `CafeData`객체로 구성
@@ -94,7 +94,7 @@
 
 ### 사용자가 게시물을 추가, 확인, 저장할 수 있는 기능
 
-![Screen_Recording_20250101_205135_Coffic.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/f6cb388f-3934-47d6-9928-26d2e10eb0fc/7ab8cbbd-5768-4e6f-88b0-bf66ae0f2f14/Screen_Recording_20250101_205135_Coffic.gif)
+
 
 - 게시물 추가 버튼
     - `ImageButton` 을 활용하여 하단에 추가 버튼 배치 → 클릭 시 `DialogFragment` 표시
